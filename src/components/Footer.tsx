@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import { Leaf, Mail, Phone, MapPin, Facebook, Youtube, Linkedin, Twitter, ArrowRight } from 'lucide-react'
 
 const footerLinks = {
