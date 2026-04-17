@@ -25,4 +25,14 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }
+  ```json
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && git add dist -f && git commit -m 'Deploy to GitHub Pages' && git push"
+  }
+}
+```
 }
