@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { Building2, Globe, Handshake, ArrowRight, CheckCircle2 } from 'lucide-react'
+import { Building2, Globe, Users, ArrowRight, CheckCircle2 } from 'lucide-react'
 
 const partnerTypes = [
   {
@@ -23,7 +23,7 @@ const partnerTypes = [
     popular: true
   },
   {
-    icon: Handshake,
+    icon: Users,
     title: 'Tổ Chức & Hiệp Hội',
     description: 'Kết nối với mạng lưới hiệp hội doanh nghiệp, tổ chức phi lợi nhuận xanh.',
     benefits: ['Mạng lưới kết nối rộng', 'Chương trình đào tạo ESG', 'Vận động chính sách xanh', 'Công nhận và trao thưởng'],
