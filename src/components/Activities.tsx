@@ -7,9 +7,7 @@ import {
   Users, 
   CheckCircle2, 
   ArrowRight,
-  Star,
-  Zap,
-  BarChart3
+  Zap
 } from 'lucide-react'
 
 const solutions = [
